@@ -1,0 +1,16 @@
+pattern,block_size_bytes,mean_hit_rate_percent,mean_memory_traffic_bytes
+sequential,16,75.0,65536.0
+sequential,32,87.5,65536.0
+sequential,64,93.75,65536.0
+sequential,128,96.875,65536.0
+sequential,256,98.4375,65536.0
+strided_64_bytes,16,0.0,16384.0
+strided_64_bytes,32,0.0,32768.0
+strided_64_bytes,64,0.0,65536.0
+strided_64_bytes,128,50.0,65536.0
+strided_64_bytes,256,75.0,65536.0
+random,16,2.762,155580.8
+random,32,2.832,310937.6
+random,64,2.918,621324.8
+random,128,2.974,1241932.8
+random,256,3.148,2479411.2
